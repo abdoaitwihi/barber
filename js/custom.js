@@ -1,7 +1,7 @@
 $(document).ready(function () {
    // Toggle .header-scrolled class to #header when page is scrolled
    $(window).scroll(function () {
-      if ($(this).scrollTop() > 100) {
+      if ($(this).scrollTop() > 10) {
          $("header").addClass("header-scrolled");
          $("#topbar").addClass("topbar-scrolled");
       } else {
@@ -10,7 +10,7 @@ $(document).ready(function () {
       }
    });
 
-   if ($(window).scrollTop() > 100) {
+   if ($(window).scrollTop() > 10) {
       $("header").addClass("header-scrolled");
       $("#topbar").addClass("topbar-scrolled");
    }
